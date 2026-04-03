@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Công Danh</title>
+
+<style>
+body{
+	margin:0;
+	font-family:Arial;
+	background:#f4f4f4;
+}
+
+header{
+	background:#222;
+	color:white;
+	padding:30px;
+	text-align:center;
+}
+
+header img{
+	width:80%;
+	max-width:600px;
+	margin-top:15px;
+	border-radius:10px;
+}
+
+nav{
+	background:#555;
+	text-align:center;
+	padding:10px;
+}
+
+nav a{
+	color:white;
+	margin:0 10px;
+	text-decoration:none;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.left, .right{
+	padding:15px;
+}
+
+.left{width:30%; background:white;}
+.right{width:70%;}
+
+.card{
+	background:white;
+	padding:15px;
+	margin-bottom:15px;
+	border-radius:10px;
+	box-shadow:0 0 5px gray;
+}
+
+img{
+	width:100%;
+	border-radius:10px;
+}
+
+.tag{
+	display:inline-block;
+	background:#333;
+	color:white;
+	padding:5px 10px;
+	margin:5px;
+	border-radius:20px;
+}
+
+footer{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+
+@media(max-width:768px){
+	.left,.right{width:100%;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+	<h1>Giả Hoàng Công Danh</h1>
+	<p>Đam mê sáng tạo</p>
+	<img src="congtruong.jpg">
+</header>
+
+<nav>
+	<a href="#">Trang chủ</a>
+	<a href="#">Kỹ năng</a>
+	<a href="#">Liên hệ</a>
+</nav>
+
+<div class="container">
+
+<div class="left">
+	<div class="card">
+		<img src="anhcuatoi.jpg">
+		<h3>Thông tin</h3>
+		<p>Thích chế tạo, tìm tòi</p>
+		<p>Yêu thích vận động,chơi cầu lông</p>
+	</div>
+</div>
+
+<div class="right">
+	<div class="card">
+		<h2>Giới thiệu</h2>
+		<p> là học sinh thích sáng tạo và học hỏi điều mới.</p>
+	</div>
+
+	<div class="card">
+		<img src="anh2.jpg">
+		<p style="text-align:center;">Một góc chill của tôi</p>
+	</div>
+
+	<div class="card">
+		<h2>Kỹ năng</h2>
+		<span class="tag">HTML</span>
+		<span class="tag">CSS</span>
+		<span class="tag">Logic</span>
+	</div>
+</div>
+
+</div>
+
+<footer>
+	<p>© 2026 Công Danh</p>
+	<p><b>SĐT:</b> 0395752977</p>
+	<p><b>Email:</b> congdanh1332008@gmail.com</p>
+	<p><b>Facebook:</b> Công Danh</p>
+</footer>
+
+</body>
+</html>
